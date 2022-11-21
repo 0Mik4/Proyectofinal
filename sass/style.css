@@ -121,6 +121,7 @@ body {
 }
 @media screen and (min-width: 1300px) {
   #inicio_grilla {
+    width: 85%;
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto;
@@ -176,7 +177,7 @@ body {
 }
 
 @media screen and (min-width: 320px) {
-  #proyectos_grilla {
+  .seccion {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto auto auto;
@@ -187,7 +188,7 @@ body {
   }
 }
 @media screen and (min-width: 600px) {
-  #proyectos_grilla {
+  .seccion {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto auto auto;
@@ -198,7 +199,7 @@ body {
   }
 }
 @media screen and (min-width: 1300px) {
-  #proyectos_grilla {
+  .seccion {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto auto auto;
